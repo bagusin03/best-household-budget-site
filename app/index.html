@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ruang Anggaran — Anggaran Rumah Tangga Keluarga Indonesia</title>
+<meta name="description" content="Ruang Anggaran membantu keluarga Indonesia mencatat pemasukan dan pengeluaran, mengatur tagihan bulanan, dan merencanakan anggaran 50/30/20. Semua data tersimpan di perangkat Anda.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark" aria-hidden="true">◉</span>
+    <span class="brand-name">Ruang Anggaran</span>
+    <span class="brand-tag">untuk keluarga Indonesia</span>
+  </a>
+  <nav class="mainnav" aria-label="Navigasi utama">
+    <a href="#/" data-route="">Beranda</a>
+    <a href="#/transaksi" data-route="transaksi">Pemasukan &amp; Pengeluaran</a>
+    <a href="#/kategori" data-route="kategori">Kategori</a>
+    <a href="#/tagihan" data-route="tagihan">Tagihan &amp; Rutin</a>
+    <a href="#/perencana" data-route="perencana">Perencana 50/30/20</a>
+    <a href="#/bulanan" data-route="bulanan">Perbandingan Bulanan</a>
+  </nav>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer class="sitefoot">
+  <p><strong>Ruang Anggaran</strong> — contoh keluarga Santoso, 4 orang di Bandung. Semua angka di situs ini adalah contoh ilustratif untuk menunjukkan cara kerja alatnya; ubah sesuai angka keluarga Anda sendiri.</p>
+  <p>Acuan pola belanja: Survei Sosial Ekonomi Nasional (Susenas) BPS — makanan masih menjadi porsi terbesar pengeluaran rumah tangga Indonesia. Pola 50/30/20 mengikuti panduan umum perencanaan keuangan keluarga.</p>
+  <p>Data yang Anda tambah tersimpan hanya di peramban Anda (localStorage) dan tidak dikirim ke mana pun. Situs ini sepenuhnya luring.</p>
+</footer>
+</body>
+</html>
